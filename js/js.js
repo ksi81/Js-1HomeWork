@@ -20,6 +20,8 @@ document.getElementById('start2').onclick=f2;
 function f2(){
 	var a=document.getElementById('num1').value;
 	var b=document.getElementById('num2').value;
+	a=parseInt(a);
+	b=parseInt(b);
 	if (a>b) {
 		alert (a);
 	}
@@ -74,6 +76,9 @@ function f4(){
 	var a=document.getElementById('n1').value;
 	var b=document.getElementById('n2').value;
 	var c=document.getElementById('n3').value;
+	a=parseInt(a);
+	b=parseInt(b);
+	c=parseInt(c);
 	if (a>b && a>c) {
 		alert ('Максимальное ' +a);
 	}
