@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Карточка товаров</title>
+	<!-- <link rel="stylesheet" href="css/my.css">
+	<link rel="stylesheet" href="css/style.css"> -->
+
+</head>
+<body>
+<p>Задание 1. Пользователь вводит год рождения в input. Пользователь может ввести год рождения в двух форматах: 1988 или 02 (имеется ввиду 2002). Программа должна вывести количество лет которое исполнилось пользователю. 
+</p>
+<input type="text" id="data">
+<button id="start">Сколько лет?</button>
+<p id="rez"></p>
+
+<hr>
+<p>Задание 2. Пользователь вводит 2 числа. Найти и вывести максимальное из данных двух чисел. Учтите вариант равенства чисел.
+</p>
+<input type="text" id="num1">
+<input type="text" id="num2">
+<button id="start2">start</button>
+<hr>
+<p>Задание 3. В первом подъезде номера квартир от 1 до 20, во втором от 21 до 64,  в третьем от 65 до 80. Пользователь вводит номер квартиры, необходимо указать в каком она подъезде. 
+</p>
+
+<input type="text" id="flat">
+<button id="find">start</button>
+<hr>
+<p>Задача 4. Два поля ввода: Логин и пароль. Есть 3 пользователя:
+ivan ->  333
+ssss-> 666
+gibs ->0000
+Если введен правильный логин и пароль вывести “Добро пожаловать”, в противном случае - вывести “ошибка”.
+</p>
+<form action="" name="forma_1">
+<b>Ввведите имя:    </b>
+
+<input type="text" maxlength="10" size="11" name="login" value="">
+
+
+
+<b>Введите пароль: </b>
+<input type="password" maxlength="10" size="11" name="parol" value="">
+
+
+
+<input type="button" value="Войти" onClick='print()'>
+</form>
+<hr>
+<p>Задание 5. Пользователь вводит 3 числа. Найти и вывести максимальное из данных трех чисел.
+</p>
+
+<input type="text" id="n1">
+<input type="text" id="n2">
+<input type="text" id="n3">
+<button id="max">Определить большее</button>
+<hr>
+<p>
+	Задачи на цикл for<br>
+1.	Вывести четные числа от 0 до 101. 
+</p>
+<button onclick="f5()">knopka</button>
+	<p id="out2"></p>
+	<hr>
+<p>
+2. Вывести числа в следущей последовательности: 200 199 198 ... 0.
+</p>
+<button onclick="f51()">knopka</button>
+	<p id="out3"></p>
+	<hr>
+<p>3.	Найти сумму чисел от 0 до 100 (включительно). (0+1+2+3+4+5).
+</p>
+<button onclick="f53()">knopka</button>
+	<p id="out4"></p>
+	<hr>
+<p>1.	Задайте два input. В первый вводится число, во второе его степень. С помощью цикла возведите число в степень. Напечатайте результат. 
+</p>
+<input type="text" id="number1">
+<input type="text" id="number2">
+<button id="step">Степень</button>
+<p id="out5"></p>
+<hr>
+<p>1.	С помощью цикла напечатайте таблицу умножения на 7 от 1 до 9.
+</p>
+<div id="tab7"></div>
+<div id="tab8"></div>
+
+<hr>
+<p>5-1.	С помощью цикла вывести произведение чисел от 1 до 50.
+</p>
+<button onclick="fn1()">Кнопка</button>
+<p id="one"></p><br>
+
+<hr>
+<p>5-2.	Выведите с помощью цикла коды спецсимволов от 1000 до 2000. Напомню, что спецсимвол получается комбинацией &#число;  Например &#1222;
+</p>
+<button onclick="fPoisk()">Решение</button>
+	<p id="outRez"></p>
+
+
+	<script src="js/js.js"></script>
+</body>
+</html>
